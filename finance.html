@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Finance Tracker Sederhana</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h2>Finance Tracker</h2>
+  <h3>Total Saldo: Rp <span id="balance">0</span></h3>
+
+  <input type="text" id="desc" placeholder="Keterangan (contoh: Gaji, Makan)">
+  <input type="number" id="amount" placeholder="Jumlah (minus untuk pengeluaran, mis: -50000)">
+  <button onclick="addTransaction()">Tambah Transaksi</button>
+
+  <h3>Riwayat Transaksi</h3>
+  <ul id="list"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
